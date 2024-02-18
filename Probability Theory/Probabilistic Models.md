@@ -15,3 +15,8 @@ When choosing an appropriate sample space, we must consider the uniqueness of an
 >[!note] 
 >**Mutually Exclusive:** can't happen at the same time.
 >**Collectively Exhaustive**: During an experiment, there is always an outcome obtained that is in our sample space.
+
+### Probability Law Axioms
+> (Non-negativity) $P(A) \geq 0$
+> (Disjoint Additivity) Suppose $A_{1,}A_{2,}A_3,...$ are disjoint events. Then $P(A_{1}\cup A_{2} \cup A_{3} \cup ...) = P(A_{1)} + P(A_{2}) + P(A_{3}) +  ...$
+> (Normalization) $P(\Omega) = 1$

@@ -29,5 +29,15 @@ When choosing an appropriate sample space, we must consider the uniqueness of an
 
 ### Discrete Probability Law
 Suppose we have a finite sample space. By the disjoint additivity axiom,  the probability of any event, is the sum of the probability of it's individual elements.
-
-$P(\set{s_1,s_2,s_3,...})$
+$$
+\begin{align*}\\
+ P(\set{s_1,s_2,s_{3,...})}= P(s_{1}) + P(s_{2}) + ...
+\end{align*}
+$$
+### Discrete Uniform Probability Law
+Suppose that we have $n$ outcomes in our sample space and the probability of the outcomes are "equally likely". Then the probability of  an event $A$ is the number of elements in $A$ divided by the $n$.
+$$
+\begin{align*}
+P(A) &= \frac{|A|}{n}
+\end{align*}
+$$

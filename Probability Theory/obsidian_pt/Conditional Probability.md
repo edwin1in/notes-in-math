@@ -24,10 +24,11 @@ $$
 	\\ P(\bigcap^n_{i = 1}A_{i})=P(A_1)P(A_2|A_1)P(A_3|A_{1}\cap A_2)...P(A_n|\bigcap^{n-1}_{i=1}A_i)
 \end{align*}
 $$
-Proof:
+*Proof*:
 $$
 \begin{align*}\\
-\\ P(\bigcap^n_{i = 1}A_{i})=P(A_1)P(A_2|A_1)P(A_3|A_{1}\cap A_2)...P(A_n|\bigcap^{n-1}_{i=1}A_i)\\
-
+\\ P(\bigcap^n_{i = 1}A_{i})&=P(A_1)P(A_2|A_1)P(A_3|A_{1}\cap A_2)...P(A_n|\bigcap^{n-1}_{i=1}A_i)\\
+&=P(A_1)\frac{P(A_2\cap A_1)}{P(A_1)}\frac{P(A_{3} \cap A_{2}\cap A_3)}{P(A_{2}\cap A_{1})}...\frac{P(\bigcap^n_{i = 1}A_{i})}{P(\bigcap^{n-1}_{i = 1}A_{i})}\\
 \end{align*}
 $$
+Cancel out all of the terms then you get $P(\bigcap^n_{i = 1}A_{i})$.

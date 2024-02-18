@@ -24,3 +24,6 @@ P(A) &= \frac{|A|}{n}
 \end{align*}
 $$
 ### Properties of Probability Law
+> If $A \subset B$ then, $P(A) \leq P(B)$ 
+> $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ Inclusion exclusion principle
+> $P(A \cup B) \leq P(A) + P(B)$

@@ -1,0 +1,1 @@
+Given **partial information** that the outcome is within some event $B$, we wish to find the likelihood of the event $A$. Namely, the **conditional probability of $A$ given $B$** denoted as $P(A|B)$.

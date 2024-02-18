@@ -10,4 +10,8 @@ The sample space for the experiment of flipping a coin three times will be the s
 
 
 ### Appropriate Sample Spaces
-When choosing an appropriate sample space, we must consider the uniqueness of an outcome and that we always obtain 
+When choosing an appropriate sample space, we must consider the uniqueness of an outcome and that we always obtain an outcome from our experiment that is to be included in our sample space. When we say that there needs to be unique outcome, we say that the outcomes are **mutually exclusive**. For example, imagine our experiment is rolling a die. The possible outcome cannot be "1 or 2" or "2 or 4". The outcome has to be either "1", "2", ... , "6". We cannot have two outcomes simultaneously. When we always obtain an outcome that is in our sample space, then the chosen sample space is **collectively exhaustive**.
+
+>[!note] 
+>**Mutually Exclusive:** can't happen at the same time.
+>**Collectively Exhaustive**: During an experiment, there is always an outcome obtained that is in our sample space.

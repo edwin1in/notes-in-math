@@ -23,3 +23,4 @@ $$
 P(A) &= \frac{|A|}{n}
 \end{align*}
 $$
+### Properties of Probability Law

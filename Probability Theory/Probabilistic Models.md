@@ -23,4 +23,11 @@ When choosing an appropriate sample space, we must consider the uniqueness of an
 
 >[!info] 
 >From our normalization and additivity axiom, we can derive another formulation.
->Since $\Omega \cap \emptyset = \emptyset$, Thus $$
+>Since $\Omega \cap \emptyset = \emptyset$, Thus $\Omega$ and $\emptyset$ are disjoint events.
+>From our normalization axiom, we have $P(\Omega) = 1$.
+>$P(\Omega) =P(\Omega \cup \emptyset)$ By additivity, $P(\Omega \cup \emptyset) = P(\Omega) + P(\emptyset) = 1 + P(\emptyset)$. Thus $P(\emptyset) = 0$.
+
+### Discrete Probability Law
+Suppose we have a finite sample space. By the disjoint additivity axiom,  the probability of any event, is the sum of the probability of it's individual elements.
+
+$P(\set{s_1,s_2,s_3,...})$

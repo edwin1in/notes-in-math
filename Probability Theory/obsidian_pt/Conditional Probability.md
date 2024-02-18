@@ -17,4 +17,17 @@ $$
 \\ P(A\cap B) &= P(B)P(A|B)
 \end{align*}
 $$
-Suppose we have several events $A_{1}, ...,A_{n}$. Where $A = A_{1} \cap ... \cap A_n$.
+Suppose we have several events $A_{1}, ...,A_{n}$. Where $A = A_{1} \cap ... \cap A_n$. Then the probability of $A$ is given by the multiplication rule.
+
+$$
+\begin{align*}\\
+	\\ P(\bigcap^n_{i = 1}A_{i})=P(A_1)P(A_2|A_1)P(A_3|A_{1}\cap A_2)...P(A_n|\bigcap^{n-1}_{i=1}A_i)
+\end{align*}
+$$
+Proof:
+$$
+\begin{align*}\\
+\\ P(\bigcap^n_{i = 1}A_{i})=P(A_1)P(A_2|A_1)P(A_3|A_{1}\cap A_2)...P(A_n|\bigcap^{n-1}_{i=1}A_i)\\
+
+\end{align*}
+$$

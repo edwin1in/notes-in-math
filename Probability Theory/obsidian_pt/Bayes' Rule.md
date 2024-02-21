@@ -12,4 +12,8 @@ $$
 &= \frac{P(A_i)P(B|A_{i})}{P(A_{1})P(B|A_{1}) + P(A_{2})P(B|A_{2})+...+P(A_{n})P(B|A_{n})}
 \end{align*}
 $$
-Think of $A_{i}$ as the cause and the event $B$ as an effect. With the bae
+Think of $A_{i}$ as the cause and the event $B$ as an effect. With the Bayes' Rule we wish to infer the specific cause given the effect. $P(B|A_{i})$ represents the probability of the "effect" given the "cause". 
+
+>[!info] 
+>$P(A_{i}|B)$: posterior probability of event $A_i$ given information of event $B$
+>$P(A_{i})$: prior probability

@@ -73,3 +73,13 @@ $$
 &= P(A|C)
 \end{align*}
 $$
+
+### Independence of Several Events 
+Suppose that $A_{1}, A_{2}, A_{3}, ..., A_{n}$ are independent events if 
+
+$$
+\begin{align*}\\
+	P(\bigcap_{i=1}^{n}A_{i}) &= \prod_{i=1}^{n}P(A_{i})
+\\
+\end{align*}
+$$

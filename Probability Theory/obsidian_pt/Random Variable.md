@@ -1,0 +1,1 @@
+Suppose that the outcome of an experiment is not a numerical value and that we would like to assign a numerical value to that outcome. Then

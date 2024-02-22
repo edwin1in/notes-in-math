@@ -2,8 +2,8 @@
 When the given information/event $B$ does not alter the probability of $A$ then,
 $$
 	\begin{align*}\\
-\\ P(A|B) &= P(A)
-\end{align*}
+\\ P(A|B) &= P(A), \text{Given } P(B)
+ > 0\end{align*}
 $$
 From here we can deduce that 
 $$
@@ -39,6 +39,7 @@ $$
 \\ P(A^{c} \cap B^{c}) &= P((A \cup B)^c)\\
 &= 1 - P(A \cup B)\\
 &= 1 - (P(A) + P(B) -P(A \cap B))\\
-
+&= (1-P(A))(1-P(B))\\
+&= P(A^c)P(B^c)
 \end{align*}
 $$

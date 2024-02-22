@@ -27,3 +27,4 @@ $$
 > If $A \subset B$ then, $P(A) \leq P(B)$ 
 > $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ Inclusion exclusion principle
 > $P(A \cup B) \leq P(A) + P(B)$
+> $1 = P(\Omega) = P(A \cup A^{c})= P(A) + P(A^c)$

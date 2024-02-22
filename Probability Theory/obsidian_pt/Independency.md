@@ -65,3 +65,11 @@ $$
 &= \frac{P(B \cap C)}{P(C)} \cdot \frac{P(A \cap B \cap C)}{P(B \cap C)}
 \end{align*}
 $$
+So if 
+
+$$
+\begin{align*}\\
+\\ P(A|B \cap C) &= \frac{P(A \cap B |C)}{P(B|C)}\\
+&= P(A|C)
+\end{align*}
+$$

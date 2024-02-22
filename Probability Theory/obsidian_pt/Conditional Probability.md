@@ -17,7 +17,7 @@ $$
 \\ P(A\cap B) &= P(B)P(A|B)
 \end{align*}
 $$
-Suppose we have several events $A_{1}, ...,A_{n}$. Where $A = A_{1} \cap ... \cap A_n$. Then the probability of $A$ is given by the multiplication rule.
+Suppose we have several events $A_{1}, ...,A_{n}$. Where $A = A_{1} \cap ... \cap A_n$. Then the probability of $A$ is given by the [[multiplication rule]].
 
 $$
 \begin{align*}\\

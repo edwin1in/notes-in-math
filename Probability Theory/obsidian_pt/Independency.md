@@ -43,3 +43,25 @@ $$
 &= P(A^c)P(B^c)
 \end{align*}
 $$
+### Conditional Independence 
+
+Given an event $C$, the events $A$ and $B$ are called conditionally independent if
+$$
+\begin{align*}\\\\
+P(A \cap B | C) &= P(A|C)P(B|C)
+\end{align*}
+$$
+*Proof*:
+$$
+\begin{align*}\\
+\\P(A \cap B|C) &= \frac{P(A \cap B \cap C)}{P(C)}
+\end{align*}
+$$
+By [[multiplication rule]],
+$$
+\begin{align*}\\
+\\ &= \frac{P(C)P(B|C)P(A|B \cap C)}{P(C)}\\
+&= P(B|C)P(A|B\cap C)\\
+&= \frac{P(B \cap C)}{P(C)} \cdot \frac{P(A \cap B \cap C)}{P(B \cap C)}
+\end{align*}
+$$

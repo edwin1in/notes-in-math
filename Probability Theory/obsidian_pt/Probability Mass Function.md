@@ -39,8 +39,17 @@ Let $X$ be a binomial random variable with parameters $n$ and $p$. Where $n$ is 
 
 $$
 \begin{align*}\\
-\\   p_{X}(k) &= {n \choose k}p^k(1-p)^{n-k}
+\\   p_{X}(k) &= {n \choose k}p^{k(1-p)^{n-k}}\ , \ k= 0,1,2,..., n
 \end{align*}
 $$
+### [[The Geometric Random Variable]]
+The geometric random variable is the number $X$ of tosses needed for one success. Let $p$ be the probability of success and $k$ be the number of tries until the first success.
+
+$$
+\begin{align*}\\
+\\  p_{X}(k) &= (1-p)^{k-1}p \ , \ k = 1,2,...
+\end{align*}
+$$
+
 
 

@@ -38,6 +38,7 @@ $$
 \begin{align*}\\
 \\ P(A^{c} \cap B^{c}) &= P((A \cup B)^c)\\
 &= 1 - P(A \cup B)\\
-&= 1 - P
+&= 1 - (P(A) + P(B) -P(A \cap B))\\
+
 \end{align*}
 $$

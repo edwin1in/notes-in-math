@@ -12,3 +12,32 @@ $$
 \end{align*}
 $$
 By symmetry, if event $A$ is independent of $B$ then event $B$ is independent of $A$.
+
+If $A$ and $B$ are independent then $A^c$ and $B$ are independent.
+
+*Proof*:
+$$
+\begin{align*}\\
+\\ P(A|B) &= P(A)\\
+1-P(A^{c}|B)&= 1-P(A^c)\\
+P(A^{c}|B)&= P(A^c)\\
+\end{align*}
+$$
+If A and B are independent then $A$ and $B^c$ are independent.
+
+*Proof*:
+$$
+\begin{align*}\\
+\\P(B|A) &= P(B)\\
+  1-P(B^{c}|A) &= 1 - P(B^c) 
+\\ P(B^{c}|A) &= P(B^c)
+\end{align*}
+$$
+If $A$ and $B$ are independent then $A^c$ and $B^c$ are independent.
+$$
+\begin{align*}\\
+\\ P(A^{c} \cap B^{c}) &= P((A \cup B)^c)\\
+&= 1 - P(A \cup B)\\
+&= 1 - P
+\end{align*}
+$$

@@ -7,3 +7,5 @@ X:\Omega \to \mathbb{R}
 $$
 ### [[Discrete Random Variable]]
 A discrete random variable takes on a finite or countably infinite number of values.
+
+### Functions of Random Variables

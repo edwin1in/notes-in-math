@@ -39,7 +39,7 @@ Let $X$ be a binomial random variable with parameters $n$ and $p$. Where $n$ is 
 
 $$
 \begin{align*}\\
-\\   p_{X}(k) &= {n \choose k}p^{k(1-p)^{n-k}}\ , \ k= 0,1,2,..., n
+\\   p_{X}(k) &= {n \choose k} p^{k} (1-p)^{n-k}\ , \ k= 0,1,2,..., n
 \end{align*}
 $$
 ### [[The Geometric Random Variable]]

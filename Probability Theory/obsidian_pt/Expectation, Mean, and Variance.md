@@ -36,3 +36,21 @@ $$
 \\ \sigma_{X} &= \sqrt{var(X)}
 \end{align*}
 $$
+Suppose that we have a function of a random variable $X$, $g(X)$. Then 
+$$
+\begin{align*}\\
+\\ E[g(X)] &= \sum\limits_{x}g(x)p_{X}(x)
+\end{align*}
+$$
+Thus the variance can be computed like this
+$$
+\begin{align*}\\
+\\ var(X) &= E[(X-E[X])^{2}] = \sum\limits_{x}(X-E[X])^2p_{X}(x) 
+\end{align*}
+$$
+Similarly, the $n$-th moment is given by
+$$
+\begin{align*}\\
+\\ E[X^{n}] &= \sum\limits_{x}x^{n}p_{X}(x)
+\end{align*}
+$$

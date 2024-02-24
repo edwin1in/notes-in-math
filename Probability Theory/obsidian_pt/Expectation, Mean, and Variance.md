@@ -42,15 +42,30 @@ $$
 \\ E[g(X)] &= \sum\limits_{x}g(x)p_{X}(x)
 \end{align*}
 $$
-Thus the variance can be computed like this
-$$
-\begin{align*}\\
-\\ var(X) &= E[(X-E[X])^{2}] = \sum\limits_{x}(X-E[X])^2p_{X}(x) 
-\end{align*}
-$$
 Similarly, the $n$-th moment is given by
 $$
 \begin{align*}\\
 \\ E[X^{n}] &= \sum\limits_{x}x^{n}p_{X}(x)
+\end{align*}
+$$
+Thus the variance can be computed like this
+$$
+\begin{align*}\\
+\\ var(X) &= E[(X-E[X])^{2}] = \sum\limits_{x}(x-E[X])^2p_{X}(x) 
+\end{align*}
+$$
+There is a much simpler way to define the $var(X)$:
+$$
+\begin{align*}\\
+\\ var(X) &= E[X^2]-(E[X])^2
+\end{align*}
+$$
+*Proof*:
+$$
+\begin{align*}\\
+\\ var(X) &= \sum\limits_{x}(x - E[X])^2p_{X}(x)\\
+&= \sum\limits_x(x^{2}-2E[X]x + (E[X])^2)p_{X}(x)\\
+&= \sum\limits_{x}(x^{2}p_{X}(x)-2E[X]xp_{X}(x)+ (E[X])^2p_{X}(x))\\
+&= \sum\limits_{x}x^{2}p_{X}(x)-\sum\limits_{x}2E[X]xp_{X}(x)+\sum\limits_{x}(E[X])^2
 \end{align*}
 $$

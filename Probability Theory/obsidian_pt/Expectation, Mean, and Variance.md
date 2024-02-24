@@ -66,6 +66,9 @@ $$
 \\ var(X) &= \sum\limits_{x}(x - E[X])^2p_{X}(x)\\
 &= \sum\limits_x(x^{2}-2E[X]x + (E[X])^2)p_{X}(x)\\
 &= \sum\limits_{x}(x^{2}p_{X}(x)-2E[X]xp_{X}(x)+ (E[X])^2p_{X}(x))\\
-&= \sum\limits_{x}x^{2}p_{X}(x)-\sum\limits_{x}2E[X]xp_{X}(x)+\sum\limits_{x}(E[X])^2
+&= \sum\limits_{x}x^{2}p_{X}(x)-\sum\limits_{x}2E[X]xp_{X}(x)+\sum\limits_{x}(E[X])^2p_{X}(x)\\
+&= E[X^{2}] - 2E[X]\sum\limits_{x}xp_{X}(x) + (E[X])^2\sum\limits_{x}p_{X}(x)\\
+&= E[X^{2}] - 2(E[X])^{2} + (E[X])^{2}\\
+&= E[X^{2}]-(E[X])^2
 \end{align*}
 $$

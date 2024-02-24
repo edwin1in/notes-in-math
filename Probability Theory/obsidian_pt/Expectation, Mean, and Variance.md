@@ -79,7 +79,10 @@ $$
 \\var(Y) &= E[Y^{2}] - (E[Y])^2\\
 &= \sum\limits_{x}(g(x))^{2}p_{X}(x) - (\sum\limits_{x}g(x)p_{X}(x))^2\\
 &= \sum\limits_{x}(ax+b)^{2}p_{X}(x) - (\sum\limits_{x}(ax+b)p_{X}(x))^2\\
-&= \sum\limits_{x}(a^{2}x^{2}+2abx+b^{2})p_{X}(x)p_{X}(x) - (a\sum\limits_{x}xp_{X}(x)+b\sum\limits_{x}p_{X}(x))^2\\
-&= a^{2}\sum\limits_{x}x^{2}p_{X}(x)
+&= \sum\limits_{x}(a^{2}x^{2}+2abx+b^{2})p_{X}(x) - (a\sum\limits_{x}xp_{X}(x)+b\sum\limits_{x}p_{X}(x))^2\\
+&= a^{2}\sum\limits_{x}x^{2}p_{X}(x) + 2ab\sum\limits_{x}xp_{X}(x) + b^{2}\sum\limits_{x}p_{X}(x) - (aE[X]+b)^{2}\\
+&= a^{2}E[X^{2}]+2abE[X] + b^{2}- (a^{2}E[X]^{2} + 2abE[X] + b^{2})\\
+&= a^{2}(E[X^{2}]-(E[X])^{2})\\
+&= a^{2}(var(X))
 \end{align*}
 $$

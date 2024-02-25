@@ -19,3 +19,17 @@ $$
 $$
 f_{X}(X) = \frac{dF_{X}}{dx}(x)
 $$
+### Geometric CDF 
+Let $X$ be a geometric random variable with parameter $p$. That is, $X$ is the number of trials until the first success in a sequence of independent Bernoulli trials. The CDF is given by
+
+$$
+F_{geo}(n) = \sum\limits_{i=1}^{n}p(1-p)^{k-1}= 1-(1-p)^{n}
+$$
+### Exponential CDF 
+Let $X$ be the exponential r.v. with parameter $\lambda > 0$. Its CDF is given by
+$$
+F_{exp}(x) = P(X \leq x) = 0,  \text{for $x \leq 0$},
+$$
+$$
+F_{exp}(x) = \int^{x}_{0} \lambda e^{-\lambda t}dt = 1-e^{-\lambda x}
+$$

@@ -1,3 +1,5 @@
+### Discrete 
+
 The **expectation** of $X$ is the weighted (in proportion to the probabilities) average of the possible values of $X$.
 
 Suppose that you spin a wheel $k$ times a let $m_{i}$ be the amount of money you win at the $i$-th position. Then the average money that you gain will be.  Let $k_{i}$ be the amount of spins that land on the $i$-th position.
@@ -135,4 +137,19 @@ $$
 
 $$
 E[X] = \frac{a+b}{2}
+$$
+## Continuous 
+The expected value of a [[Probability Density Function]] is similar to that of a PMF.
+Namely,
+
+$$
+E[X] = \int^{\infty}_{-\infty} xf_{X}(x)dx
+$$
+Suppose we have a function of a random variable, then the expected value is
+$$
+E[g(X)] = \int^{\infty}_{-\infty}g(x)f_{X}(x)dx
+$$
+The variance is 
+$$
+var(X) = E[(X-E[X])^{2}] = \int^{\infty}_{-\infty}(x-E[X])^{2f_{X}(x)dx}= 
 $$

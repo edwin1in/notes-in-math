@@ -30,6 +30,16 @@ $$
 Assume that we have an interval $[a,b]$ and probability is uniform. Then we have some constant for the PDF.
 
 $$
-f_{X}(x) = \begin{cases} c, \ \text{if $a \leq 0 \leq b$} \\ 0, \text{otherwise}\end{cases}
+f_{X}(x) = \begin{cases} c, \ \text{if $a \leq x \leq b$} \\ 0, \text{otherwise}\end{cases}
 $$
-It can be determined using the normai
+It can be determined using the normalization property. 
+
+$$
+1 = \int^{\infty}_{-\infty}f_{X}(x)dx = \int^{b}_{a}cdx, c = \frac{1}{b-a}
+$$
+Thus if our random variable is uniform then, 
+$$
+f_{X}(x) = \begin{cases} \frac{1}{b-a}, \ \text{if $a \leq x \leq b$} \\ 0, \text{otherwise}\end{cases}
+$$
+
+

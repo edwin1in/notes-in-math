@@ -131,3 +131,8 @@ $$
 &= p(1-p)
 \end{align*}
 $$
+#### Discrete Uniform r.v. 
+
+$$
+E[X] = \frac{a+b}{2}
+$$

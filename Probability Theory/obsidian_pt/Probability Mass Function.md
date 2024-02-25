@@ -52,5 +52,11 @@ $$
 $$
 
 ### [[The Discrete Uniform Random Variable]]
-Suppose that $a,b \in \mathbb{Z}$ and $X$ di
+Suppose that $a,b \in \mathbb{Z}$ and $X$ distributes 'mass' uniformly among $\set{a ... b}$, where $a \leq b$.  The the PMF is characterized as
+
+$$
+\begin{align*}\\
+\\ p_{X}(x) &= \begin{cases} \frac{1}{b-a+1}, \ a \leq k \leq b \\ 0, \ \text{otherwise}\end{cases}
+\end{align*}
+$$
 

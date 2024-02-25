@@ -90,9 +90,44 @@ $$
 ### Expectation and Variance of Known r.v.
 
 #### Bernoulli r.v.
-By the Bernoulli r.v. , our r.v. is 
+By the Bernoulli r.v. 
+$$
+\begin{align*}\\
+\\ X &= \begin{cases} 1, \ \text{if success} \\ 0,\ \text{if failure}\end{cases}
+\end{align*}
+$$
+The PMF of the Bernoulli r.v.
+$$
+\begin{align*}\\
+\\ p_{X}(x) &= \begin{cases} p, \ \text{if $x=1$} \\ (1-p), \ \text{if $x=0$}\end{cases}
+\\
+\end{align*}
+$$
+Then the expected value is 
+$$
+\begin{align*}\\
+\\ E[X] &= \sum\limits_{x}xp_{X}(x)\\
+ &= (1)(p) + (0)(1-p) \\
+&= p
+\end{align*}
+$$
+The second moment is
+
+$$
+\begin{align*}\\
+\\ E[X^{2}] &= \sum\limits_{x}g(x)p_{X}(x)\\
+&= (1)^{2}p + (0)^{2}(1-p)\\
+&= p
+\end{align*}
+$$
+
+Then the variance of the Bernoulli r.v. is 
+
 $$
 \begin{align*}\\
 \\
+\\var(X) &= E[X^{2}] - (E[X])^{2}\\
+&= p - p^{2}\\
+&= p(1-p)
 \end{align*}
 $$

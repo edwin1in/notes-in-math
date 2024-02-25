@@ -51,5 +51,6 @@ $$
 \end{align*}
 $$
 
-
+### [[The Discrete Uniform Random Variable]]
+Suppose that $a,b \in \mathbb{Z}$ and $X$ di
 

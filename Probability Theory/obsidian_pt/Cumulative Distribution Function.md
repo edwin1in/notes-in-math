@@ -33,3 +33,5 @@ $$
 $$
 F_{exp}(x) = \int^{x}_{0} \lambda e^{-\lambda t}dt = 1-e^{-\lambda x}
 $$
+### Standard Normal R.V. 
+A normal random variable $Y$ with zero mean and unit variance is said to be a standard normal. Its CDF is denoted as

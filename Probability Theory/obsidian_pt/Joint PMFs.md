@@ -11,4 +11,8 @@ $$
 $$
 P_{Y}(k) = \sum\limits_{x}p_{X,Y}(x,k)
 $$
-Let's consider the 
+Consider this. Let the range($X$) $= \set{1,2,3,4}$. Then the sample space is just a partition of $\set{X=1} \cup \set{X=2}\cup \set{X=3}\cup \set{X=4} = \Omega$. These events are disjoint. Now consider the range($Y$) $= \set{1,2,3}$. Suppose that another event intersects the partitioned sample space. Let's say $\set{Y=3}$. Then 
+
+$$
+P(Y = 3) = P(X=1,Y=3) +P(X=2,Y=3) + ...
+$$

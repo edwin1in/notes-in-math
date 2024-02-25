@@ -42,4 +42,18 @@ $$
 f_{X}(x) = \begin{cases} \frac{1}{b-a}, \ \text{if $a \leq x \leq b$} \\ 0, \text{otherwise}\end{cases}
 $$
 
+### Exponential Random Variable 
+A exponential random variable has a PDF in the form of 
+
+$$
+f_{X}(x) = \begin{cases} \lambda e^{-\lambda x}, \ \text{if $x \geq 0$,} \\ 0, \ \text{otherwise}\end{cases}
+$$
+An exponential random variable can be a good model for the amount of time until an incident of interest takes place.
+
+The expected value of an exponential random variable is 
+$$
+E[X] = \frac{1}{\lambda}
+$$
+The 2nd moment is 
+
 

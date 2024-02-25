@@ -151,5 +151,13 @@ E[g(X)] = \int^{\infty}_{-\infty}g(x)f_{X}(x)dx
 $$
 The variance is 
 $$
-var(X) = E[(X-E[X])^{2}] = \int^{\infty}_{-\infty}(x-E[X])^{2f_{X}(x)dx}= 
+var(X) = E[(X-E[X])^{2}] = \int^{\infty}_{-\infty}(x-E[X])^{2}f_{X}(x)dx= E[X^{2}] - (E[X])^{2} 
+$$
+Suppose that we have a function of a random variable $Y = aX + b$ and $a,b$ are scalars.
+Then 
+$$
+E[Y] = aE[X] + b 
+$$
+$$
+var(Y) = a^{2}var(X)
 $$

@@ -63,4 +63,24 @@ Thus the variance is
 $$
 var(X) = \frac{1}{\lambda^{2}}
 $$
+### Normal R.V.s
+A continuous r.v. is said to be **normal** or **Gaussian** if it has the PDF of the form 
+
+$$
+f_{X}(x)= \frac{1}{\sqrt{2\pi}\sigma}e^{\frac{-(x-\mu)^{2}}{2\sigma^{2}}}
+$$
+The mean and variance can be calculated to be 
+$$
+E[X] = \mu
+$$
+$$
+var(X) = \sigma^{2}
+$$Suppose that $X$ is a normal variable with the mean $\mu$ and the variance $\sigma^{2}$. Then, the random variable $Y = aX + b$, where $a \neq 0$ is also normal. Then the the expected value and variance will be 
+$$
+E[Y] = aE[X] + b = a\mu + b
+$$
+$$
+var(Y) = a^{2}var(X) = a^{2}\sigma^{2}
+$$
+
 

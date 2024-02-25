@@ -86,3 +86,13 @@ $$
 &= a^{2}(var(X))
 \end{align*}
 $$
+
+### Expectation and Variance of Known r.v.
+
+#### Bernoulli r.v.
+By the Bernoulli r.v. , our r.v. is 
+$$
+\begin{align*}\\
+\\
+\end{align*}
+$$

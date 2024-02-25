@@ -55,5 +55,12 @@ $$
 E[X] = \frac{1}{\lambda}
 $$
 The 2nd moment is 
+$$
+E[X^{2}] = \frac{2}{\lambda^{2}}
+$$
+Thus the variance is 
 
+$$
+var(X) = \frac{1}{\lambda^{2}}
+$$
 

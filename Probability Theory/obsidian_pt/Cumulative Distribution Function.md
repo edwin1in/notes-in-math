@@ -35,3 +35,27 @@ F_{exp}(x) = \int^{x}_{0} \lambda e^{-\lambda t}dt = 1-e^{-\lambda x}
 $$
 ### Standard Normal R.V. 
 A normal random variable $Y$ with zero mean and unit variance is said to be a standard normal. Its CDF is denoted as
+
+$$
+\phi(y) = P(Y \leq y) = P(Y < y) = \frac{1}{\sqrt{2\pi}} \int^{y}_{-\infty} e^{\frac{-t^2}{2}}dt
+$$
+Generally,
+
+$$
+\phi(-y) = 1-\phi(y)
+$$
+Let $X$ be a normal random variable with mean $\mu$ and variance $\sigma^{2}$. We have "standardize" $X$ by defining a new random variable $Y$ given by
+
+$$
+Y = \frac{X-\mu}{\sigma}
+$$
+$$
+E[Y] = \frac{E[X]-\mu}{\sigma} = 0
+$$
+$$
+var(Y) = \frac{var(X)}{\sigma^{2}}=1
+$$
+### CDF calculation for a Normal r.v.
+$$
+P(X \leq x) = P\left(\frac{X-\mu}{\sigma} \leq \frac{x-\mu}{\sigma}\right)= P\left(Y \leq \frac{x-\mu}{\sigma}\right)= \phi(\frac{x-\mu}{\sigma})
+$$
